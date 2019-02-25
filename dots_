@@ -4,14 +4,12 @@ function setup() {
 }
 
 function draw() {
-  var x = random(width);
   var y = random(height);
-  
-for (var x = random(width); x <400; x = x+1) { 
+  for (var i = 0; i < 1000; i++) {
+    var x = random(width);
 
-  stroke(x, y, 100);
-  point(x, y);
-}
-  
 
+    stroke(x, y, 100);
+    point(x, y);
+  }
 }
